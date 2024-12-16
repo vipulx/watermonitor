@@ -22,8 +22,8 @@ OneWire oneWire(TEMP_SENSOR_PIN);
 DallasTemperature waterTempSensor(&oneWire);
 
 // WiFi Config
-#define WIFI_SSID "how"
-#define WIFI_PASS "12345678"
+#define WIFI_SSID "Your_WIFI_SSID"
+#define WIFI_PASS "WIFI_PASSWORD"
 
 // Global Variables
 float tdsValue = 0;
