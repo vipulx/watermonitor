@@ -30,7 +30,7 @@ float tdsValue = 0;
 float turbidityValue = 0;
 float waterLevelValue = 0;
 float waterTemperature = 0;
-
+float waterTemperature2 = 0;
 // Web Server on port 80
 WiFiServer server(80);
 
